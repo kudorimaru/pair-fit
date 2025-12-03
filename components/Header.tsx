@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
             <Dumbbell className="w-6 h-6 text-slate-950" />
           </div>
           <span className="text-2xl font-serif font-bold tracking-wider text-white">
-            PAIR FIT
+            ペアフィット
           </span>
         </a>
 

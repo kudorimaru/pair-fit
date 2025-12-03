@@ -13,13 +13,13 @@ export const Founder: React.FC = () => {
           <div className="w-full md:w-5/12 order-2 md:order-1">
              <div className="relative aspect-[3/4] w-full max-w-sm mx-auto md:ml-auto">
                 <img 
-                  src="https://picsum.photos/seed/founder/600/800" 
-                  alt="Founder" 
+                  src="/founder.jpg" 
+                  alt="Founder portrait" 
                   className="w-full h-full object-cover rounded-sm shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-slate-900 p-6 border-l-4 border-amber-500 shadow-xl max-w-xs">
                     <p className="text-amber-500 font-bold text-sm mb-1">FOUNDER</p>
-                    <p className="text-white font-serif text-xl">Kazuki .T</p>
+                    <p className="text-white font-serif text-xl">加藤耀介</p>
                 </div>
              </div>
           </div>
@@ -40,9 +40,6 @@ export const Founder: React.FC = () => {
               <p>
                 この原体験が「ペアフィット」の全てです。ただでさえ、忙しく会食の多い経営者が健康になりながら、最高のビジネスパートナーも見つかる。そんな一石二鳥の体験を、ぜひあなたも体感してください。
               </p>
-            </div>
-            <div className="mt-8">
-               <img src="https://picsum.photos/seed/signature/200/80" alt="signature" className="h-12 opacity-60 invert" />
             </div>
           </div>
 

@@ -12,8 +12,8 @@ export const Concept: React.FC = () => {
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-amber-600/50"></div>
                 
                 <img 
-                  src="https://picsum.photos/seed/training/800/600" 
-                  alt="Training together" 
+                  src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1600&auto=format&fit=crop"
+                  alt="Endorphin boosting workout" 
                   className="w-full rounded-sm shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
                 />
              </div>

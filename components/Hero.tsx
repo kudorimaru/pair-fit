@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight mb-8 font-serif text-white animate-[fadeInUp_1s_ease-out_0.3s_both]">
             名刺交換より、<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-600">
-              限界突破。
+              限界突破
             </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-3xl animate-[fadeInUp_1s_ease-out_0.6s_both]">
@@ -35,10 +35,12 @@ export const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 animate-[fadeInUp_1s_ease-out_0.9s_both]">
             <a 
-              href="#cta"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfMRjDa7dGJ2J8DCw4jrmL9P7dS1U24iAwgb1Y-520QWFPWHQ/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-lg transition-all transform hover:translate-y-[-2px] hover:shadow-lg hover:shadow-amber-500/20"
             >
-              体験セッションへ申し込む
+              無料体験セッションに申し込む
               <ArrowRight className="w-5 h-5" />
             </a>
             <a 
